@@ -5,6 +5,15 @@
     --background-1: #a7f7db;
 }
 
+header {
+    background-color: var(--background-1);
+}
+
+.portrait {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .portrait img {
     max-width: 100%;
 }
@@ -23,6 +32,8 @@
     width: 200px;
     height: 52px;
     background-image: url(./images/nav-kitty-1.png);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-cats a {
