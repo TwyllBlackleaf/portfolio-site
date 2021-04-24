@@ -1,0 +1,66 @@
+:root {
+    --cat-1: #f8a7ef;
+    --cat-2: #fff7dc;
+    --text-1: #117788;
+    --background-1: #a7f7db;
+}
+
+.portrait img {
+    max-width: 100%;
+}
+
+.nav-cats {
+    display: flex;
+}
+
+.nav-cats ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.nav-cats li {
+    width: 200px;
+    height: 52px;
+    background-image: url(./images/nav-kitty-1.png);
+}
+
+.nav-cats a {
+    text-decoration: none;
+    position: relative;
+    right: -20px;
+}
+
+.nav-cats li:hover {
+    background-image: url(./images/nav-kitty-2.png);
+}
+
+.nav-cats li:active {
+    background-image: url(./images/nav-kitty-3.png);
+}
+
+
+
+
+
+/*.nav-cats li::before {
+    content: url(./images/kitty-face-1.png);
+    position: relative;
+    bottom: -20px;
+}
+
+.nav-cats li::after {
+    content: url(./images/kitty-butt.png);
+}
+
+
+
+.nav-cats a {
+    background-color: var(--cat-2);
+    font-size: 20px;
+    padding: 9px;
+    margin: 0;
+    border-top: 4px solid var(--cat-1);
+    border-bottom: 4px solid var(--cat-1);
+}
+*/
