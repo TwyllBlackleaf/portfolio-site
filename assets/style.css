@@ -115,6 +115,9 @@ p {
 
 .link-box {
     position: relative;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .program-header {
@@ -126,6 +129,8 @@ p {
     position: absolute;
     bottom: 0;
     left: 0;
+    border-radius: 0 15px;
+    bottom: 20px;
 }
 
 .my-work a {
@@ -136,12 +141,16 @@ p {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-radius: 15px;
+    padding: 0;
 }
 
 .work-image-2 {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    border-radius: 15px;
+    padding: 0;
 }
 
 /* S6. Footer */
