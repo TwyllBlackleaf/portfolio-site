@@ -120,19 +120,6 @@ p {
     padding-bottom: 20px;
 }
 
-.program-header {
-    padding: 10px;
-    margin: 0;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    color: var(--background-2);
-    background-color: var(--cat-2);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-radius: 0 15px;
-    bottom: 20px;
-}
-
 .my-work a {
     text-decoration: none;
 }
@@ -151,6 +138,31 @@ p {
     object-fit: cover;
     border-radius: 15px;
     padding: 0;
+}
+
+.program-header {
+    padding: 10px;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    color: var(--background-2);
+    background-color: var(--cat-2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 15px;
+    bottom: 20px;
+}
+
+/* S5. Contact Me */
+.contact {
+    background-color: var(--cat-2);
+    padding-bottom: 20px;
+}
+
+address {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    color: var(--text-1);
+    font-style: normal;
 }
 
 /* S6. Footer */
