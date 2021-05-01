@@ -6,6 +6,7 @@
     S4. My Work
     S5. Contact Me
     S6. Footer
+    S7. Media queries
 */
 
 :root {
@@ -172,26 +173,64 @@ footer {
     color: var(--background-2);
 }
 
-@media screen and (min-width: 575px) {
+/* S7. Media Queries */
+@media screen and (min-width: 450px) {
     header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 300px;
+        justify-content: center;
     }
     
     .portrait {
-        width: 280px;
+        width: 200px;
         order: 1;
     }
 
     h1 {
         order: 2;
-        width: 50%;
-        align-self: flex-start;
     }
 
     nav {
         order: 3;
     }
+}
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        height: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 220px;
+        justify-content: space-between;
+    }
+
+    .nav-cats ul {
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .nav-cats li {
+        margin: 10px;
+    }
+
+    .portrait {
+        justify-self: flex-start;
+        align-self: center;
+        margin: 10px;
+    }
+
+    header h1 {
+        margin: 10px;
+        align-self: flex-end;
+        justify-self: flex-start;
+    }
+
+
 }
