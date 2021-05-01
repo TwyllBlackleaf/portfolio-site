@@ -171,3 +171,27 @@ footer {
     font-size: 16px;
     color: var(--background-2);
 }
+
+@media screen and (min-width: 575px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 300px;
+    }
+    
+    .portrait {
+        width: 280px;
+        order: 1;
+    }
+
+    h1 {
+        order: 2;
+        width: 50%;
+        align-self: flex-start;
+    }
+
+    nav {
+        order: 3;
+    }
+}
