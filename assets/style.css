@@ -1,7 +1,7 @@
 /* Table of Contents
     S1. Header and Nav
         S1a. Navigation
-    S2. General articles
+    S2. General page text
     S3. About Me
 */
 
@@ -24,15 +24,19 @@ header h1 {
     color: var(--background-2);
     text-align: center;
     padding-top: 10px;
+    font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
 }
 
 .portrait {
     width: 75%;
     margin: 0 auto;
+    border: 5px solid var(--background-2);
+    padding-bottom: 0;
 }
 
 .portrait img {
     max-width: 100%;
+    padding-bottom: 0;
 }
 
 /* S1a. Navigation */
@@ -61,7 +65,9 @@ header h1 {
     position: relative;
     right: -20px;
     font-size: 24px;
-    bottom: -11px;
+    bottom: -12px;
+    color: var(--background-2);
+    font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
 }
 
 .nav-cats li:hover {
@@ -72,11 +78,17 @@ header h1 {
     background-image: url(./images/nav-kitty-3.png);
 }
 
-/* S2. General Articles */
+/* S2. General Page Text */
 .article-header {
     background-color: var(--background-2);
     color: var(--background-1);
-    padding-left: 5px;
+    padding: 5px;
+    font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
+    font-style: italic;
+}
+
+p {
+    font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
 }
 
 /* S3. About Me */
@@ -88,4 +100,5 @@ header h1 {
 
 .about-me p {
     padding: 0 15px;
+    color: var(--text-1);
 }
