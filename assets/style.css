@@ -88,9 +88,10 @@ article {
 .article-header {
     background-color: var(--background-2);
     color: var(--background-1);
-    padding: 5px;
+    padding: 7px;
     font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
     font-style: italic;
+    margin: 0 0 10px 0;
 }
 
 p {
@@ -158,7 +159,7 @@ p {
     bottom: 0;
     left: 0;
     border-radius: 0 15px;
-    bottom: 20px;
+    bottom: 24px;
 }
 
 /* S5. Contact Me */
@@ -178,6 +179,11 @@ footer {
     background-color: var(--background-1);
     font-size: 16px;
     color: var(--background-2);
+}
+
+footer p {
+    margin: 0;
+    padding-top: 5px;
 }
 
 /* S7. Media Queries */
@@ -212,6 +218,7 @@ footer {
 
     .my-work h2 {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .flex-link-1 {
@@ -222,6 +229,10 @@ footer {
     .flex-link-2 {
         width: 50%;
         margin: 0;
+    }
+
+    .link-box-1 {
+        width: 97.5%;
     }
 }
 
