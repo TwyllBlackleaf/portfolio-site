@@ -114,7 +114,14 @@ p {
     background-color: var(--cat-1);
 }
 
-.link-box {
+.link-box-1 {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.link-box-2 {
     position: relative;
     width: 95%;
     margin: 0 auto;
@@ -198,8 +205,24 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    .my-work {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .my-work h2 {
+        width: 100%;
+    }
 
+    .flex-link-1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .flex-link-2 {
+        width: 50%;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
