@@ -11,4 +11,4 @@ const setContactInfo = function() {
     phoneSpan.innerText = "757-477-9507";
 }
 
-setInterval(setContactInfo, 1000);
+setInterval(setContactInfo, 100);
