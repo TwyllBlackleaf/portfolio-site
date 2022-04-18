@@ -100,6 +100,17 @@ p {
     line-height: 1.5;
 }
 
+.sub-header {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Lucida Bright", Georgia, "Times New Roman", serif;
+    font-style: italic;
+    width: 90%;
+    border-bottom: 3px solid #000000;
+    margin-left: 5%;
+    padding-bottom: 7px;
+}
+
 /* S3. About Me */
 .about-me {
     background-color: var(--cat-2);
@@ -119,16 +130,16 @@ p {
 
 .link-box-1 {
     position: relative;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .link-box-2 {
     position: relative;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .my-work a {
@@ -161,7 +172,7 @@ p {
     bottom: 0;
     left: 0;
     border-radius: 0 15px;
-    bottom: 24px;
+    bottom: 44px;
 }
 
 /* S5. Contact Me */
@@ -242,7 +253,7 @@ footer p {
     }
 
     .link-box-1 {
-        width: 97.5%;
+        width: 95%;
     }
 }
 
