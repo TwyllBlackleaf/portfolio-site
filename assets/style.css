@@ -173,6 +173,8 @@ p {
     left: 0;
     border-radius: 0 15px;
     bottom: 44px;
+    border-top: 5px solid var(--background-2);
+    border-right: 5px solid var(--background-2);
 }
 
 /* S5. Contact Me */
